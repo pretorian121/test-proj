@@ -1,0 +1,22 @@
+{
+  "name": "test-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nightwatch/mobile-helper": "^0.1.14",
+    "@swc/core": "^1.7.22",
+    "appium": "^2.11.3",
+    "appium-uiautomator2-driver": "^3.7.8",
+    "appium-xcuitest-driver": "^7.24.18",
+    "nightwatch": "^3.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
