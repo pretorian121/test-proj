@@ -17,7 +17,7 @@ module.exports = {
   src_folders: ['test','nightwatch'],
 
   globals: {
-    asyncHookTimeout: 170000,
+    asyncHookTimeout: 5000,
 
     abortOnAssertionFailure: true,
     abortOnElementLocateError: true,
