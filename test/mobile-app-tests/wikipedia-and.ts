@@ -4,10 +4,10 @@ describe('Wikipedia Android app test', function () {
     this.tags = ['sanity', 'wiki']
 
     before(async function (app: NightwatchAPI, done) {
-        await app.waitForElementPresent({locateStrategy: 'id', selector: 'org.wikipedia:id/fragment_onboarding_skip_button2'})
-            .click('id', 'org.wikipedia:id/fragment_onboarding_skip_button2');
+        await app.waitForElementPresent({locateStrategy: 'id', selector: 'org.wikipedia:id/fragment_onboarding_skip_button'})
+            .click('id', 'org.wikipedia:id/fragment_onboarding_skip_button');
 
-        done();
+        // done();
     });
 
     it('Search 2 for BrowserStack', function (app: NightwatchAPI) {
